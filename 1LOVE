@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>1LOVE CLOTHING</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="#">Shop</a></li>
+				<li><a href="#">About Us</a></li>
+				<li><a href="#">Contact</a></li>
+				<li><a href="#">FAQs</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<section id="banner">
+		<h1>Welcome to 1LOVE CLOTHING</h1>
+		<p>Discover our latest collection of high-quality clothing.</p>
+		<button>Shop Now</button>
+	</section>
+</body>
+</html>
+header {
+	background-color: #FFF;
+	height: 70px;
+	padding: 10px;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 999;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav a {
+	color: #333;
+	text-decoration: none;
+}
+
+#banner {
+	background-color: #F59B22;
+	color: #FFF;
+	padding: 100px;
+	text-align: center;
+}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Shop - 1LOVE CLOTHING</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="#">Shop</a></li>
+				<li><a href="#">About Us</a></li>
+				<li><a href="#">Contact</a></li>
+				<li><a href="#">FAQs</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<section id="shop">
+		<h2>Shop</h2>
+		<form>
+			<input type="text" placeholder="Search">
+			<select>
+				<option value="">All</option>
+				<option value="">Men</option>
+				<option value="">Women</option>
+				<option value="">Kids</option>
+			</select>
+			<button>Search</button>
+		</form>
+
+		<div class="product">
+			<img src="product1.jpg">
+			<h3>Product 1</h3>
+			<p>Description of Product 1</p>
+			<p>$50</p>
+			<button>Add to Cart</button>
+		</div>
+
+		<div class="product">
+			<img src="product2.jpg">
+			<h3>Product 2</h3>
+			<p>Description of Product 2</p>
+			<p>$75</p>
+			<button>Add to Cart</button>
+		</div>
+	</section>
+</body>
+</html>
+#shop {
+	margin: 50px auto;
+	width: 80%;
+}
+
+.product {
+	background-color: #FFF;
+	box-shadow: 0 0 10px rgba(0,0,0,0.2);
+	display: inline-block;
+	margin:
